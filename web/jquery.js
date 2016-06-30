@@ -19,9 +19,9 @@ $(document).ready(function() {
     var checking_html = 'Checking...';
 
     //when button is clicked
-    $('#username').keyup(function(){
+    $('#userSignUp'). focusout(function(){
         //run the character number check
-        if($('#username').val().length < min_chars){
+        if($('#userSignUp').val().length < min_chars){
             //if it's bellow the minimum show characters_error text
             $('#username_availability_result').html(characters_error);
         }else{
@@ -38,7 +38,7 @@ $(document).ready(function() {
 function check_availability(){
 
     //get the username
-    var username = $('#username').val();
+    var username = $('#userSignup').val();
 
     //use ajax to run the check
     $.post("username_check.php", { username: username },
