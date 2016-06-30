@@ -38,12 +38,13 @@ $(document).ready(function() {
 function check_availability(){
 
     //get the username
-    var username = $('#userSignup').val();
-
+    var username = $('#userSignUp').val();
+    console.log('CHECKING USERNAME OF: '+username);
     //use ajax to run the check
     $.post("username_check.php", { username: username },
         function(result){
             //if the result is 1
+            console.log('RESULT OF REQUEST: '+result);
             if(result == 1){
                 //show that the username is available
                 $('#username_availability_result').html(username + ' is Available');
