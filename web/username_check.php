@@ -19,7 +19,7 @@ $username = $db->real_escape_string($_POST['username']);
 $result = $db->query('select username from users where username = "'. $username .'"');
 
 //if number of rows fields is bigger them 0 that means it's NOT available '
-if(mysql_num_rows($result)>0){
+if($result->num_rows > 0){
     //and we send 0 to the ajax request
     echo 0;
 }else{

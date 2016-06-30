@@ -44,23 +44,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="username_check.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="username_check.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/username_check.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.807693">
-              <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+            <state vertical-scroll-proportion="0.38263667">
+              <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
               <folding>
                 <element signature="e#6#103#0#PHP" expanded="true" />
-                <marker date="1467256022595" expanded="true" signature="418:479" placeholder="select usern... users" />
+                <marker date="1467260129871" expanded="true" signature="418:479" placeholder="select usern... users" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="jquery.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/jquery.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.61001045">
+            <state vertical-scroll-proportion="0.0">
               <caret line="42" column="51" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -107,8 +107,8 @@
         <option value="$PROJECT_DIR$/web/index.html" />
         <option value="$PROJECT_DIR$/web/config.php" />
         <option value="$PROJECT_DIR$/web/acc_setup.php" />
-        <option value="$PROJECT_DIR$/web/username_check.php" />
         <option value="$PROJECT_DIR$/web/jquery.js" />
+        <option value="$PROJECT_DIR$/web/username_check.php" />
       </list>
     </option>
   </component>
@@ -818,12 +818,12 @@
       <workItem from="1466797484506" duration="612000" />
       <workItem from="1467154432858" duration="7253000" />
       <workItem from="1467163499253" duration="3200000" />
-      <workItem from="1467242678235" duration="15541000" />
+      <workItem from="1467242678235" duration="16069000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78325000" />
+    <option name="totallyTimeSpent" value="78853000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1311,23 +1311,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/username_check.php">
+    <entry file="file://$PROJECT_DIR$/web/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.807693">
-          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="51" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
           <folding>
-            <element signature="e#6#103#0#PHP" expanded="true" />
-            <marker date="1467256022595" expanded="true" signature="418:479" placeholder="select usern... users" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/jquery.js">
+    <entry file="file://$PROJECT_DIR$/web/username_check.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61001045">
-          <caret line="42" column="51" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
+        <state vertical-scroll-proportion="0.38263667">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#6#103#0#PHP" expanded="true" />
+            <marker date="1467260129871" expanded="true" signature="418:479" placeholder="select usern... users" />
           </folding>
         </state>
       </provider>
