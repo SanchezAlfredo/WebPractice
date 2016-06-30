@@ -49,3 +49,6 @@ Temporary Items
 #IDE Related files
 .idea
 WebPractice.iml
+
+#Config Files
+config.php

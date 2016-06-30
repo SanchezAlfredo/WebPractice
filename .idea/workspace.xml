@@ -47,8 +47,8 @@
       <file leaf-file-name="username_check.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/username_check.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38263667">
-              <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.27331188">
+              <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
               <folding>
                 <element signature="e#6#103#0#PHP" expanded="true" />
                 <marker date="1467260129871" expanded="true" signature="418:479" placeholder="select usern... users" />
@@ -818,12 +818,12 @@
       <workItem from="1466797484506" duration="612000" />
       <workItem from="1467154432858" duration="7253000" />
       <workItem from="1467163499253" duration="3200000" />
-      <workItem from="1467242678235" duration="16069000" />
+      <workItem from="1467242678235" duration="16144000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78853000" />
+    <option name="totallyTimeSpent" value="78928000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -836,7 +836,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928064" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1323,8 +1323,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/username_check.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38263667">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.27331188">
+          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
           <folding>
             <element signature="e#6#103#0#PHP" expanded="true" />
             <marker date="1467260129871" expanded="true" signature="418:479" placeholder="select usern... users" />
