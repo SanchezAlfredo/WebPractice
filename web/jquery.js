@@ -38,7 +38,7 @@ $(document).ready(function() {
 function check_availability(){
 
     //get the username
-    var username = $('#userSignup').val();
+    var username = $('#userSignUp').val();
 
     //use ajax to run the check
     $.post("username_check.php", { username: username },
