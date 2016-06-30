@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>A Cruel Angel's Thesis</title>
+    <meta charset="UTF-8">
+    <link href="index.css" rel="stylesheet" type="text/css"/>
+    <link href="font-awesome-4.6.2\css\font-awesome.min.css" rel="stylesheet">
+    <script src="jquery-3.0.0.js"></script>
+    <script src="jquery.js"></script>
+
+</head>
+
+<body style="margin: 0;">
+
+<!--main div used for top navi bar-->
+<div class="navi clearfix">
+
+    <div class="leftside">
+
+        <div id="header">
+            <h1>A Cruel Angel's Thesis</h1>
+        </div>
+
+    </div>
+
+    <div class="right-side">
+
+        <div class="list-group">
+            <a class="list-group-item" href="http://localhost/web/index.html" data-toggle="tooltip" title="Home"><i class="fa fa-home fa-fw"aria-hidden="true"></i></a>
+            <a class="list-group-item" href="#"><i class="fa fa-book fa-fw" aria-hidden="true" data-toggle="tooltip" title="Library"></i></a>
+            <a class="list-group-item" href="#"><i class="fa fa-pencil fa-fw" aria-hidden="true" data-toggle="tooltip" title="Code"></i></a>
+            <a class="list-group-item" href="#"><i class="fa fa-cog fa-fw" aria-hidden="true" data-toggle="tooltip" title="Settings"></i></a>
+        </div>
+
+    </div>
+
+</div>
+
+<!--<h2>This is a heading</h2>
+
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+<button>Click me to hide paragraphs</button>-->
+
+<div class="signup">
+
+<form action="acc_setup.php" method="post">
+    Username
+    <br>
+    <input type="text" name="username" id="userSignUp" required="required" placeholder="Choose a Username">
+    <div id='username_availability_result'></div>
+    <br>
+    Email
+    <br>
+    <input type="text" name="email" id="emailSignup" required="required" placeholder="Email">
+    <br>
+    Password
+    <br>
+    <input type="password" name="pass" id="passSignup" required="required" placeholder="Password" maxlength="20">
+    <br>
+    Confirm Password
+    <br>
+    <input type="password" name="passConfirm" id="passSignupConfirm" required="required" placeholder="Verify Password" maxlength="20">
+    <br><br>
+    <input type="submit" name="signUpSubmit" value="Submit">
+</form>
+</div>
+</body>
+</html>

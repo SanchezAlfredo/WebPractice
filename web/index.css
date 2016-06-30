@@ -1,0 +1,69 @@
+#header {
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 20px;
+    padding-top:10px;
+    text-align: left;
+    float: left;
+    color: whitesmoke;
+}
+
+.navi {
+    width: 100%;
+    max-width: 100%;
+    background-color: #424242;
+    position: relative;
+    z-index: 999;
+    min-width: 940px;
+    min-height: 60px;
+}
+
+.left-side {
+    float: left;
+}
+
+.right-side {
+    float: right;
+}
+
+.list-group {
+    position: relative;
+    height: 60px;
+    font-size: 30px;
+    background-color: #424242;
+}
+
+.fa {
+    line-height: 60px !important;
+    width: 60px !important;
+    height: 60px;
+    float: left;
+    vertical-align: top;
+    position: relative;
+    color: whitesmoke;
+}
+
+.fa:hover {
+    color: white;
+    background-color: black;
+}
+
+
+
+.tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+h1 {
+    padding: 0px;
+    margin: 0;
+}
