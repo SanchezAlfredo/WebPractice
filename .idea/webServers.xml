@@ -5,6 +5,13 @@
       <webServer id="11d44c59-a30e-4c63-9515-2a713dc28b72" name="Viole" url="http://localhost">
         <fileTransfer mountedRoot="C:\xampp\htdocs" accessType="MOUNT" />
       </webServer>
+      <webServer id="a0a57903-ea89-4449-939e-8f7005bfd915" name="Lazi" url="http://alfredo.lazislacker.com">
+        <fileTransfer host="alfredo.lazislacker.com" port="21" rootFolder="/alfredo.lazislacker.com" password="dfe3dfebdfc7dfe6dfc5dfd8dfcedff3dfcbdff3dfcbdff3dfcb" username="lazislacker_alfredo">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>

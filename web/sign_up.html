@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <title>A Cruel Angel's Thesis</title>
     <meta charset="UTF-8">
@@ -38,20 +37,21 @@
 </div>
 
 <!--main div used for sign up -->
-<!--<div class="signup">
+<div class="signup">
     <form action="acc_setup.php" method="post">
         Username
         <br>
         <input type="text" name="username" id="userSignUp" required="required" placeholder="Choose a Username">
-        <div id="username_availability_result"></div>
+        <span id="username_availability_result"></span>
         <br>
         Email
         <br>
-        <input type="email" name="email" id="emailSignup" required="required" placeholder="Email">
+        <input type="email" name="email" id="emailSignUp" required="required" placeholder="Email">
         <br>
         Password
         <br>
-        <input type="password" name="pass" id="passSignup" required="required" placeholder="Password" maxlength="20" pattern=".{8,}">
+        <?php ?>
+        <input type="password" name="pass" id="passSignUp" required="required" placeholder="Password" maxlength="20" pattern=".{8,}">
         <div id="pswd_info">
             <h4>Password must meet the following requirements:</h4>
             <ul>
@@ -66,10 +66,10 @@
         <br>
         <input type="password" name="passConfirm" id="passSignupConfirm" required="required" placeholder="Verify Password" maxlength="20">
         <br><br>
-        <input type="submit" name="signUpSubmit" value="Submit">
+        <input type="submit" name="signUpSubmit" value="Submit" method="post">
+        <div id="signUpErr" ></div>
     </form>
-</div>-->
-
+</div>
 
 </body>
 </html>

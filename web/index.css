@@ -7,6 +7,11 @@
     color: whitesmoke;
 }
 
+#username_availability_result {
+    display:none;
+}
+
+/*used for top navigation bar*/
 .navi {
     width: 100%;
     max-width: 100%;
@@ -17,14 +22,17 @@
     min-height: 60px;
 }
 
+/*left side of navigation bar*/
 .left-side {
     float: left;
 }
 
+/*right side of navigation bar*/
 .right-side {
     float: right;
 }
 
+/*group of icons in right side of navigation bar*/
 .list-group {
     position: relative;
     height: 60px;
@@ -32,6 +40,7 @@
     background-color: #424242;
 }
 
+/*individual icons in right side of navigation bar*/
 .fa {
     line-height: 60px !important;
     width: 60px !important;
@@ -47,8 +56,6 @@
     background-color: black;
 }
 
-
-
 .tooltiptext {
     visibility: hidden;
     width: 120px;
@@ -63,7 +70,47 @@
     z-index: 1;
 }
 
+.signup {
+    margin: 20px;
+}
+
+.signin {
+    margin: 20px;
+}
+
 h1 {
     padding: 0px;
     margin: 0;
 }
+
+#pswd_info {
+    margin-left: 200px;
+    margin-top: -110px;
+    position:absolute;
+    width: 240px;
+    padding:15px;
+    background:#fefefe;
+    font-size:.875em;
+    border-radius:5px;
+    box-shadow:0 1px 3px #ccc;
+    border:1px solid #ddd;
+    display: none;
+}
+
+#pswd_info h4 {
+    margin:0 0 10px 0;
+    padding:0;
+    font-weight:normal;
+}
+
+#passSignup:focus + #pswd_info{
+    display: block;
+}
+
+#signUpErr h4 {
+    margin:0 0 10px 0;
+    padding:0;
+    font-weight:normal;
+    display:none;
+}
+

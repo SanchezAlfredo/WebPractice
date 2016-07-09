@@ -6,24 +6,21 @@
  * Time: 8:40 PM
  */
 include("config.php");
+include("user_check.php");
+
 if ($db->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+    die("Connection failed: " . $db->connect_error);
 }
+// Validates data to ensure it can be added
+if(!check_all($username,$email,$pass,$passConfirm,$db)){
+    header("Location: {$_SERVER['HTTP_REFERER']}");
 
-// create password hash with salt
-$passHashAndSalt = password_hash($_POST['pass'],PASSWORD_BCRYPT);
-
-// send new user values to database
-$sql = "INSERT INTO users (username, email, passHashAndSalt)
-VALUES ('$_POST[username]', '$_POST[email]', '$passHashAndSalt')";
-
-// checks if new user values were successfully added to database
-if ($db->query($sql) === TRUE) {
-    echo "New record created successfully.\n";
+    echo "Account not created";
 } else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
+    addUser($username,$email,$pass,$db);
+    header("Location:/index.html");
+    echo "Account created";
+
 }
 
-
-print_r($_POST);
 
