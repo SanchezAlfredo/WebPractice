@@ -27,7 +27,7 @@
 
         <div class="list-group">
             <a class="list-group-item" href="/index.html" data-toggle="tooltip" title="Home"><i class="fa fa-home fa-fw"aria-hidden="true"></i></a>
-            <a class="list-group-item" href="#"><i class="fa fa-book fa-fw" aria-hidden="true" data-toggle="tooltip" title="Library"></i></a>
+            <a class="list-group-item" href="#"><i class="fa fa-book fa-fw" aria-hidden="true" data-toggle="tooltip" title="Diendi Spellbook"></i></a>
             <a class="list-group-item" href="/sign_in.html"><i class="fa fa-pencil fa-fw" aria-hidden="true" data-toggle="tooltip" title="Sign-In"></i></a>
             <a class="list-group-item" href="#"><i class="fa fa-cog fa-fw" aria-hidden="true" data-toggle="tooltip" title="Settings"></i></a>
         </div>
@@ -43,30 +43,37 @@
         <br>
         <input type="text" name="username" id="userSignUp" required="required" placeholder="Choose a Username">
         <span id="username_availability_result"></span>
+        <span id="valid_username"><i class="fa fa-check" aria-hidden="true"></i></span>
         <br>
         Email
         <br>
         <input type="email" name="email" id="emailSignUp" required="required" placeholder="Email">
+        <span id="valid_email"><i class="fa fa-check" aria-hidden="true"></i></span>
+        <span id="invalid_email"><i class="fa fa-times" aria-hidden="true"></i></span>
         <br>
         Password
         <br>
-        <?php ?>
-        <input type="password" name="pass" id="passSignUp" required="required" placeholder="Password" maxlength="20" pattern=".{8,}">
+        <input type="password" name="pass" id="passSignUp" required="required" placeholder="Password" pattern=".{8,}">
+        <span id="valid_pass"><i class="fa fa-check" aria-hidden="true"></i></span>
+        <span id="invalid_pass"><i class="fa fa-times" aria-hidden="true"></i></span>
         <div id="pswd_info">
             <h4>Password must meet the following requirements:</h4>
             <ul>
                 <li id="letter" class="invalid">At least <strong>one letter</strong></li>
                 <li id="capital" class="invalid">At least <strong>one capital letter</strong></li>
                 <li id="number" class="invalid">At least <strong>one number</strong></li>
+                <li id="special" class="invalid">At least <strong>one special character </strong></li>
                 <li id="length" class="invalid">Be at least <strong>8 characters</strong></li>
             </ul>
         </div>
         <br>
         Confirm Password
         <br>
-        <input type="password" name="passConfirm" id="passSignupConfirm" required="required" placeholder="Verify Password" maxlength="20">
+        <input type="password" name="passConfirm" id="passSignUpConfirm" required="required" placeholder="Verify Password" pattern=".{8,}">
+        <span id="valid_passConfirm"><i class="fa fa-check" aria-hidden="true"></i></span>
+        <span id="invalid_passConfirm"><i class="fa fa-times" aria-hidden="true"></i></span>
         <br><br>
-        <input type="submit" name="signUpSubmit" value="Submit" method="post">
+        <input type="submit" id = "signUpSubmit" name="signUpSubmit" value="Submit" method="post">
         <div id="signUpErr" ></div>
     </form>
 </div>

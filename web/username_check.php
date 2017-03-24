@@ -21,9 +21,9 @@ $result = $db->query('SELECT username FROM users WHERE username = "' . $username
 // If number of rows fields is bigger them 0 that means it's NOT available '
 if ($result->num_rows > 0) {
     // And we send 0 to the ajax request
-    echo 0;
+    echo false;
 } else {
     // Else if it's not bigger then 0, then it's available '
     // And we send 1 to the ajax request
-    echo 1;
+    echo true;
 }

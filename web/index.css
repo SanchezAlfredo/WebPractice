@@ -11,6 +11,34 @@
     display:none;
 }
 
+#valid_pass {
+    display:none;
+}
+
+#invalid_pass {
+    display:none;
+}
+
+#valid_passConfirm {
+    display:none;
+}
+
+#invalid_passConfirm {
+    display:none;
+}
+
+#valid_username {
+    display:none;
+}
+
+#valid_email {
+    display:none;
+}
+
+#invalid_email {
+    display:none;
+}
+
 /*used for top navigation bar*/
 .navi {
     width: 100%;
@@ -41,7 +69,7 @@
 }
 
 /*individual icons in right side of navigation bar*/
-.fa {
+.fa-fw {
     line-height: 60px !important;
     width: 60px !important;
     height: 60px;
@@ -51,7 +79,7 @@
     color: whitesmoke;
 }
 
-.fa:hover {
+.fa-fw:hover {
     color: white;
     background-color: black;
 }
@@ -101,10 +129,6 @@ h1 {
     margin:0 0 10px 0;
     padding:0;
     font-weight:normal;
-}
-
-#passSignup:focus + #pswd_info{
-    display: block;
 }
 
 #signUpErr h4 {

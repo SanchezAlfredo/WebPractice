@@ -60,7 +60,7 @@ function verify_email($email)
 
 // Checks if password meets requirements (at least 8 char and contains at least one of each: uppercase, lowercase, special char, and number)
 function valid_pass($isValid){
-    $r1 = '/[A-Z]/';  //Uppercase
+    $r1 = '/[A-Z]/';  //uppercase
     $r2 = '/[a-z]/';  //lowercase
     $r3 = '/[!@#$%^&*()\-_=+{};:,<.>]/';  // 'special char'
     $r4 = '/[0-9]/';  //numbers
@@ -97,31 +97,33 @@ function addUser($username, $email, $pass, $db)
     $sql = "INSERT INTO users (username, email, passHashAndSalt)
     VALUES ('$username', '$email', '$passHashAndSalt')";
 
+    $db->query($sql);
+
     // checks if new user values were successfully added to database
-    if ($db->query($sql) === TRUE) {
+/*    if ($db->query($sql) === TRUE) {
         echo "New record created successfully.\n";
     } else {
         echo "Error: " . $sql . "<br>" . $db->error;
-    }
+    }*/
 
 }
 
 // Checks all requirements, implementing previous methods all in one
 function check_all($username, $email, $pass, $passConfirm, $db){
     if(identical_user($username, $db)) {
-//        echo "Username taken";
+        //echo "Username taken";
         return false;
     }
     if(!verify_email($email)) {
-  //      echo "Invalid email";
+        //echo "Invalid email";
         return false;
     }
     if(!valid_pass($pass)) {
-    //    echo "Password does not meet requirements";
+        //echo "Password does not meet requirements";
         return false;
     }
     if(!identical_pass($pass,$passConfirm)) {
-      //  echo "Passwords do not match";
+        //echo "Passwords do not match";
         return false;
     }
 
